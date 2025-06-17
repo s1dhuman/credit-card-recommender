@@ -1,80 +1,57 @@
-Credit Card Recommendation System
-A modern, AI-powered web application that recommends the best credit cards to users based on their profile and preferences. This project uses a professional tech stack similar to those found in top tech companies, with a clear structure for easy learning and future expansion[#].
+# Credit Card Recommendation System
 
-🚀 Tech Stack
-Backend: FastAPI (Python)
+A modern, AI-powered web application that recommends the best credit cards to users based on their profile and preferences.
 
-Frontend: React (Vite)
+## 🚀 Tech Stack
+- **Backend:** FastAPI (Python)
+- **Frontend:** React (Vite)
+- **Database:** PostgreSQL (planned)
+- **AI Integration:** LangChain + OpenAI (planned)
+- **Testing:** Postman, Swagger UI
 
-Database: PostgreSQL (planned)
-
-AI Integration: LangChain + OpenAI (planned)
-
-Testing: Postman, Swagger UI
-
-Version Control: Git & GitHub
-
-📁 Project Structure
-text
+## 📁 Project Structure
 project-root/
-├── backend/      # FastAPI backend
-│   ├── main.py
-│   └── app/
-│       ├── routes/
-│       ├── models/
-│       └── schemas/
-├── frontend/     # React frontend (to be added)
+├── backend/
+│ ├── main.py
+│ └── app/
+│ ├── routes/
+│ ├── models/
+│ └── schemas/
+├── frontend/
 ├── .gitignore
 └── README.md
-backend/: Contains all backend code and API logic.
 
-frontend/: Placeholder for future frontend code.
+ 
+## 💡 Features
+- [x] FastAPI backend with modular structure
+- [x] User profile schema for recommendations
+- [x] Dummy credit card recommendation endpoint
+- [x] API documentation via Swagger UI
+- [ ] PostgreSQL integration for persistent storage
+- [ ] AI-powered recommendations (LangChain + OpenAI)
+- [ ] React frontend with chat interface
 
-.gitignore: Prevents venv, node_modules, etc., from being tracked.
+## 🛠️ Getting Started
 
-💡 Features (Current & Planned)
- FastAPI backend with modular structure
-
- User profile schema for recommendations
-
- Dummy credit card recommendation endpoint
-
- API documentation via Swagger UI
-
- Version control with Git
-
- PostgreSQL integration for persistent storage
-
- AI-powered recommendations (LangChain + OpenAI)
-
- React frontend with chat interface
-
- User authentication and security
-
-🛠️ Getting Started
-1. Clone the Repository
-bash
+### Clone the Repository
 git clone https://github.com/s1dhuman/credit-card-recommender.git
 cd credit-card-recommender
-2. Backend Setup
-bash
+
+
+### Backend Setup
 cd backend
 python -m venv venv
-venv\Scripts\activate  # On Windows
-pip install -r requirements.txt  # Or manually install needed packages
+venv\Scripts\activate # On Windows
+pip install -r requirements.txt
 uvicorn main:app --reload
-Visit http://127.0.0.1:8000/docs for interactive API docs.
 
-🧪 Testing the API
-Either
-Use Swagger UI at /docs for interactive testing.
-Or
-Use Postman to send POST requests to /recommend with sample user data.
+Visit [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) for API docs.
 
-🤝 Contributing
-Contributions, issues, and feature requests are welcome! Please open an issue or submit a pull request.
+## 🧪 Testing the API
+- Use Swagger UI at `/docs` or Postman to test endpoints.
 
-📄 License
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome!
+
+## 📄 License
 This project is licensed under the MIT License.
-
-This README is a temporary draft and will be updated as the project evolves with more features and documentation.
