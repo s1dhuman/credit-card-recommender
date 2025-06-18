@@ -1,4 +1,4 @@
-# Credit Card Recommendation System
+# Credit Card Recommendation System (proj. still in progess)
 
 A modern, AI-powered web application that recommends the best credit cards to users based on their profile and preferences.
 
